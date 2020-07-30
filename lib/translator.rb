@@ -19,7 +19,7 @@ def get_japanese_emoticon(file_path, emoticon)
     lib[lang][:english] ==emoticon
   end
   emoticon ? lib[emoticon][:japanese] : "Sorry, that emoticon was not found"
-  
+
 end
 
 def get_english_meaning(file_path, emoticon)
@@ -28,5 +28,5 @@ def get_english_meaning(file_path, emoticon)
     lib[lang][:japanese] ==emoticon
   end
   emoticon ? emoticon: "Sorry, that emoticon was not found"
-    
+
 end
